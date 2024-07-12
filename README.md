@@ -1,16 +1,16 @@
-# notes_app
+Note App (Flutter & Django)
+This Note App, developed using Flutter for the frontend and Django for the backend, allows users to efficiently manage their notes. Users can add, edit, update, and delete notes with ease. Additionally, the app features a "copy note" functionality, enabling users to quickly duplicate existing notes. The responsive design ensures a smooth user experience across various devices.
 
-A new Flutter project.
+Enter 'flutter pub get' to your project directory in order to add all the required dependencies.
 
-## Getting Started
+  assets:
+    - assets/images/diary.png
+    make this changes to your assets in pubspec.yaml
 
-This project is a starting point for a Flutter application.
+    
+flutter_native_splash:
+  color: "#42a5f5"
+  image: "assets/images/diary.png"
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  To run flutter native splash
+  dart run flutter_native_splash:create
